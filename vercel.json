@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/web-inicio/index.html" },
+    { "source": "/cursos", "destination": "/web-cursos/index.html" },
+    { "source": "/tutoriales", "destination": "/web-tutoriales/index.html" },
+    { "source": "/recursos", "destination": "/web-recursos/index.html" },
+    { "source": "/plantillas", "destination": "/web-plantillas/index.html" },
+    { "source": "/redes", "destination": "/web-redes/index.html" }
+  ]
+}

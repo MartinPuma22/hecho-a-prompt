@@ -1,0 +1,3 @@
+Pon aqui tus PDF con estos nombres exactos (o cambia los nombres en shared/js/contenido.js):
+guia-uso-responsable.pdf, banco-de-prompts.pdf, guia-identidad-visual.pdf,
+plantilla-flyer.pdf, plantilla-menu.pdf, plantilla-redes.pdf
