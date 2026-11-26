@@ -11,18 +11,59 @@
 </head>
 <body>
 <header class="barra"><a class="btn btn--borde" href="/web-inicio/">Volver al inicio</a></header>
+
+<section class="detras" id="detras">
+  <div class="detras__in">
+    <h2 class="titulo">Detrás del prompt</h2>
+    <div class="bloques">
+      <article class="bloque">
+        <img class="bloque__img" src="/web-redes/assets/img/quienes-somos.jpg" alt="Hecho a Prompt, quiénes somos" width="800" height="500" loading="lazy">
+        <div>
+          <h3>Quiénes somos</h3>
+          <p>Somos <strong>Hecho a Prompt</strong>, un proyecto que impulsa a los emprendedores a utilizar la inteligencia artificial como aliada de su creatividad, sin perder aquello que hace única a su marca.</p>
+          <ul class="chips"><li>Emprendedores</li><li>Creatividad</li><li>Marca propia</li></ul>
+        </div>
+      </article>
+      <article class="bloque bloque--inv">
+        <img class="bloque__img" src="/web-redes/assets/img/que-hay-detras.jpg" alt="Cómo usamos la inteligencia artificial" width="800" height="500" loading="lazy">
+        <div>
+          <h3>¿Qué hay detrás de la IA?</h3>
+          <p>Buscamos transformar la forma en que los pequeños negocios crean su publicidad. Enseñamos a utilizar la IA con criterio, personalizar sus resultados y comunicar de manera auténtica a través de contenido, herramientas y recursos prácticos.</p>
+          <ul class="chips"><li>Criterio</li><li>Personalización</li><li>Autenticidad</li></ul>
+        </div>
+      </article>
+      <article class="bloque">
+        <img class="bloque__img" src="/web-redes/assets/img/mision.jpg" alt="Nuestra misión" width="800" height="500" loading="lazy">
+        <div>
+          <h3>Nuestra misión: que tu marca siga siendo tú</h3>
+          <p>Queremos que los emprendedores desarrollen su creatividad, fortalezcan su identidad visual y aprendan a crear publicidad que represente verdaderamente sus productos.</p>
+          <ul class="chips"><li>Creatividad</li><li>Identidad visual</li><li>Publicidad real</li></ul>
+        </div>
+      </article>
+      <!-- Para otro bloque: copia un <article> completo y cambia imagen y texto.
+           En los bloques pares agrega la clase bloque--inv para alternar el lado. -->
+    </div>
+    <div class="cita"><p>La tecnología ayuda, pero la esencia la pones tú.</p></div>
+
+  </div>
+</section>
+
 <main class="lienzo">
   <div class="mapa">
-    <svg class="mapa__lineas" viewBox="0 0 1200 700" aria-hidden="true"><path d="M600 350L128 98M600 350L848 98M600 350L288 538M600 350L798 538"/></svg>
+    <svg class="mapa__lineas" viewBox="0 0 1200 640" aria-hidden="true"><path d="M600 320L338 110M600 320L338 320M600 320L338 530M600 320L862 110M600 320L862 320M600 320L862 530"/></svg>
     <div class="centro"><span class="centro__a">HECHO A</span><span class="centro__prompt">PROMPT</span></div>
-    <a class="nodo nodo--whatsapp" data-link="whatsapp"><img class="nodo__icono" src="/shared/assets/icons/whatsapp.svg" alt=""><span class="nodo__ir">Abrir</span><h2>WhatsApp</h2><p>Consejos express y avisos directos de una sola idea.</p></a>
-    <a class="nodo nodo--facebook" data-link="facebook"><img class="nodo__icono" src="/shared/assets/icons/facebook.svg" alt=""><span class="nodo__ir">Abrir</span><h2>Facebook</h2><p>Carruseles, encuestas, retos y videos publicados en otras plataformas.</p></a>
 
-    
-    <a class="nodo nodo--tiktok" data-link="tiktok"><img class="nodo__icono" src="/shared/assets/icons/tiktok.svg" alt=""><span class="nodo__ir">Abrir</span><h2>TikTok</h2><p>Sketches verticales donde ROMIA visita negocios reales, con tutoriales.</p></a>
-    <a class="nodo nodo--youtube" data-link="youtube"><img class="nodo__icono" src="/shared/assets/icons/youtube.svg" alt=""><span class="nodo__ir">Abrir</span><h2>YouTube</h2><p>Episodios de expectativa vs. realidad: ROMIA probando comida y piezas gráficas.</p></a>
+    <a class="nodo nodo--izq fila1" data-link="whatsapp"><img class="nodo__icono" src="/shared/assets/icons/whatsapp.svg" alt=""><div class="nodo__txt"><h2>WhatsApp</h2><p>Consejos express y avisos directos de una sola idea.</p><span class="nodo__ir">Abrir</span></div></a>
+    <a class="nodo nodo--der fila1" data-link="facebook"><img class="nodo__icono" src="/shared/assets/icons/facebook.svg" alt=""><div class="nodo__txt"><h2>Facebook</h2><p>Carruseles, encuestas, retos y videos publicados en otras plataformas.</p><span class="nodo__ir">Abrir</span></div></a>
+
+    <div class="nodo nodo--izq fila2"><img class="nodo__icono" src="/shared/assets/icons/btl.svg" alt=""><div class="nodo__txt"><h2>BTL</h2><p>Actividades que muestran la diferencia entre una publicidad hecha por IA y una hecha por un humano, con juegos para aprender Canva.</p></div></div>
+    <a class="nodo nodo--der fila2" data-link="cursos"><img class="nodo__icono" src="/shared/assets/icons/cursos.svg" alt=""><div class="nodo__txt"><h2>Cursos</h2><p>Para emprendedores que quieran aprender a su ritmo con los cursos grabados.</p><span class="nodo__ir">Abrir</span></div></a>
+
+    <a class="nodo nodo--izq fila3" data-link="tiktok"><img class="nodo__icono" src="/shared/assets/icons/tiktok.svg" alt=""><div class="nodo__txt"><h2>TikTok</h2><p>Sketches verticales donde ROMIA visita negocios reales, con tutoriales.</p><span class="nodo__ir">Abrir</span></div></a>
+    <a class="nodo nodo--der fila3" data-link="youtube"><img class="nodo__icono" src="/shared/assets/icons/youtube.svg" alt=""><div class="nodo__txt"><h2>YouTube</h2><p>Episodios de expectativa vs. realidad: ROMIA probando comida y piezas gráficas.</p><span class="nodo__ir">Abrir</span></div></a>
   </div>
 </main>
+
 <script src="/shared/js/links.js"></script>
 <script src="/web-redes/js/main.js"></script>
 </body>
